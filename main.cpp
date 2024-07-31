@@ -1,6 +1,6 @@
 #include <iconv.h>
 
 int main() {
-  // ensure we really linking with libiconv
+  // ensure we really use libiconv
   return (int)&iconv;
 }
